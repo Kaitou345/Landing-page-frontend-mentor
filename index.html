@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./styles.css">
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+  <script src="https://kit.fontawesome.com/95ce28c7ea.js" crossorigin="anonymous"></script>  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <section class="nav-section">
+    <nav>
+      <div class="nav-flex">
+
+        <div class="nav-link">
+          <div class="nav-brand">
+            <img src="./images/logo.svg" alt="">
+          </div>
+          <div class="nav-items">
+            <div class="dropdown-container dropdown-container-features">
+              <a href="">Features <i class="fa-solid fa-angle-up"></i></a>
+              
+              <div class="dropdown-content dropdown-content-features">
+
+                <div class="dropdown-item">
+                  <img src="./images/icon-todo.svg" alt="">
+                  <span>Todo List</span>
+                </div>
+
+                <div  class="dropdown-item">
+                  <img src="./images/icon-calendar.svg" alt="">
+                  <span>Calendar</span>
+                </div>
+
+                <div class="dropdown-item">
+                  <img src="./images/icon-reminders.svg" alt="">
+                  <span>Reminders</span>
+                </div>
+
+                <div class="dropdown-item">
+                  <img src="./images/icon-planning.svg" alt="">
+                  <span>Planning</span>
+                </div>
+                
+              </div>
+
+            </div>
+
+            <div class="dropdown-container">
+              <a href="">Company <i class="fa-solid fa-angle-up"></i></a>
+
+              <div class="dropdown-content">
+
+                <div class="dropdown-item">
+                  <span>History</span>
+                </div>
+
+                <div  class="dropdown-item">
+                  <span>Our Team</span>
+                </div>
+
+                <div class="dropdown-item">
+                  <span>Blog</span>
+                </div>
+
+              </div>
+            </div>
+
+            <div>
+              <a href="">Careers</a>
+            </div>
+            <div>
+              <a href="">About</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="nav-cta">
+          <a href="/" class="btn">Login</a>
+          <a class="btn btn-border">Register</a>
+        </div>
+
+      </div>
+    </nav>
+  </section>
+
+  <section class="main-section">
+    <div class="section-container">
+
+      <div class="description">
+        <div class="description-text">
+          <h1 class="heading">Make <br> remote work</h1>
+          <p class="subheading">Get your team in sync, no matter your location. Streamline processes, 
+            create team rituals, and watch productivity soar.
+          </p>
+          <a class="cta" href="">Learn More</a>
+        </div>
+        <div class="description-client">
+            <img class="" src="./images/client-databiz.svg" alt="">
+            <img class="" src="./images/client-audiophile.svg" alt="">
+            <img class="" src="./images/client-meet.svg" alt="">
+            <img class="" src="./images/client-maker.svg" alt="">
+        </div>
+      </div>
+
+      <div class="hero">
+        <img  class="hero-img" src="./images/image-hero-desktop.png" alt="">
+      </div>
+
+    </div>
+  </section>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Seyan baya</a>.
+  </div>
+</body>
+</html>
