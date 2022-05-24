@@ -145,7 +145,7 @@ p {
 }
 
 .hero-img {
-  width: 30vw;
+  width: 40vw;
 }
 
 .description {
@@ -154,7 +154,7 @@ p {
   justify-content: space-between;
   margin-left: 50px;
   margin-top: 50px;
-  width: 450px;
+  width: 500px;
 }
 
 .description-text {
@@ -165,13 +165,13 @@ p {
 }
 
 .heading {
-  margin: 25px 0;
-  font-size: 60px;
+  margin: 30px 0;
+  font-size: 72px;
   color: var(--text-contrast)
 }
 
 .subheading {
-  margin: 25px 0;
+  margin: 30px 0;
   font-size: 18px;
   font-weight: 500;
   line-height: 1.5;
@@ -183,7 +183,7 @@ p {
   align-items: center;
   justify-content: center;
   border-radius: 15px;
-  margin: 25px 0;
+  margin: 30px 0;
   text-decoration: none;
   color: var(--text-primary);
   border: 2px solid;
